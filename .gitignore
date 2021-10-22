@@ -3,3 +3,7 @@ node_modules
 .env
 # Keep log files out of version control
 *.log
+# Following example doc prisma on https://github.com/prisma/prisma-examples/blob/latest/.gitignore
+**/migrations
+**/*.db
+**/dev.db-journal

@@ -1,4 +1,5 @@
 import axios from "axios";
+import prismaClient from "../prisma";
 
 /**
  * Receber code(string) ✅
